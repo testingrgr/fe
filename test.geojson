@@ -4,6 +4,6 @@
                                                                                 
 "features": [
 
-{ "type": "Feature", "properties": { "COUNTRY": "<    Scri<scri<script>pt>cr<script>iPt  <script>    >prompt(1)European Unionxss", "ADDRESS": "2300 M STREET NW<SvG>", "CITY<script": ">alert(1)<sc", "ript>STATE": "DC", "TELEPHONE": "(202) 862-9500", "EMB_TITLE": "Delegation of the European Commission to the United States", "WEBURL": "http:\/\/www.eurunion.org\/", "GIS_ID": "Emb_176", "X": 395615.27, "Y": 137462.07, "ADDRID": 243314 }, "geometry": { "type": "Point", "coordinates": [ -77.050551562117448, 38.905004632555496 ] } }
+{ "type": "Feature", "properties": { "COUNTRY": "<Scri<scri<script>pt>cr<script>iPt  <script>    >prompt(1)</Scri<scri<script>pt>cr<script>iPt  <script>    >European Unionxss", "ADDRESS": "2300 M STREET NW<SvG>", "CITY<script": ">alert(1)<sc", "ript>STATE": "DC", "TELEPHONE": "(202) 862-9500", "EMB_TITLE": "Delegation of the European Commission to the United States", "WEBURL": "http:\/\/www.eurunion.org\/", "GIS_ID": "Emb_176", "X": 395615.27, "Y": 137462.07, "ADDRID": 243314 }, "geometry": { "type": "Point", "coordinates": [ -77.050551562117448, 38.905004632555496 ] } }
 ]
 }
